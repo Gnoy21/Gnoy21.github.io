@@ -1,0 +1,14 @@
+.side_bar{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    background-color: black;
+}
+
+.profile{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    text-align: center;
+}
