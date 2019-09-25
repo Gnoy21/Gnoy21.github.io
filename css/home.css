@@ -1,19 +1,14 @@
-.container{
-    width: 1519px;
-    margin: auto;
-}
-
 .sidebar_container{
     position: relative;
     float: left;
     width: 325px;
-    height: 721px;
+    height: 100%;
 }
 
 .sidebar{
     position: fixed;
     width: 325px;
-    height: 721px;
+    height: 100%;
     background: black;
 }
 
