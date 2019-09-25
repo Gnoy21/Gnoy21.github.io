@@ -1,17 +1,15 @@
 .sidebar_container{
     position: relative;
     float: left;
-    width: 350px;
+    width: 25%;
     height: 100%;
 }
 
 .sidebar{
     position: fixed;
-    width: 330px;
+    width: 25%;
     height: 100%;
     background: black;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .sidebar_profile{
@@ -30,13 +28,13 @@
 .content{
     position: relative;
     float: left;
-    width: 800px;
+    width: 50%;
     border: 1px solid;
 }
 
 .tag{
     position: relative;
     float: left;
-    width: 360px;
+    width: 24%;
     border: 1px solid;
 }
