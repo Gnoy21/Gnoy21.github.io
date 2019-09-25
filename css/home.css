@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    width: 330px;
+    height: 720px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar_profile{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar_profile_image{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.content{
+    position: relative;
+    float: left;
+    width: 800px;
+    margin-left: 350px;
+    border: 1px solid;
+}
+
+.tag{
+    position: relative;
+    float: left;
+    width: 360px;
+    border: 1px solid;
+}
