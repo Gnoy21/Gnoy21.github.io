@@ -7,13 +7,13 @@
     position: relative;
     float: left;
     width: 325px;
-    height: 100%;
+    height: 721px;
 }
 
 .sidebar{
     position: fixed;
     width: 325px;
-    height: 100%;
+    height: 721px;
     background: black;
 }
 
