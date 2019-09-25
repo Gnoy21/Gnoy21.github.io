@@ -1,8 +1,15 @@
+.sidebar_container{
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 100%;
+}
+
 .sidebar{
     position: fixed;
     width: 330px;
     height: 100%;
-    background-color: black;
+    background: black;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -24,7 +31,6 @@
     position: relative;
     float: left;
     width: 800px;
-    margin-left: 350px;
     border: 1px solid;
 }
 
