@@ -1,3 +1,7 @@
+.container{
+    min-width: 1519px;
+}
+
 .sidebar_container{
     position: relative;
     float: left;
@@ -10,6 +14,7 @@
     width: 325px;
     height: 100%;
     background: black;
+    z-index: 1;
 }
 
 .sidebar_profile{
