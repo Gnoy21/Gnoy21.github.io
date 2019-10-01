@@ -1,11 +1,13 @@
 <html>
-
     <head>
         <title>Gnoy's Blog</title>
         <link rel="stylesheet" href="css/home.css"/>
-        <link rel="import" href="test.html">
-
-
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $(document).ready( function() {
+                $("#html2").load("test.html");
+            });
+        </script>
     </head>
 
     <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
@@ -20,14 +22,12 @@
                 </div>
             </div>
 
-            <div class="content">1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>
-                1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>1<br>2<br>3<br>4<br>5<br>
-            </div>
+            <div id="html2"></div>
 
             <div class="tag">
                 this is tag layout!!
             </div>
-        </div> 
+        </div>
     </body>
 
 </html>
