@@ -3,10 +3,16 @@
         <title>Gnoy's Blog</title>
         <link rel="stylesheet" href="css/home.css"/>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script>
+        <script type="text/javascript">
             $(document).ready( function() {
-                $("#html2").load("test.html");
+                $("#content").load("content.html");
+                $("#post_preview").load("post_preview.html");
             });
+            function add_div(){
+                var div = document.createElement('div');
+                div.innerHTML = document.getElementById('post_preview').innerHTML;
+                document.getElementById('content').appendChild(div);
+            }
         </script>
     </head>
 
@@ -15,19 +21,19 @@
             <div class="sidebar_container">
                 <div class="sidebar">
                     <div class="sidebar_profile">
-                        <img class="sidebar_profile_image" src="Teemo.jpg" width="128px" height="128px"><br><br>
+                        <img class="sidebar_profile_image" src="image/Teemo.jpg" width="128px" height="128px"><br><br>
                         <strong style="font-size:30px; color:white">Gnoy</strong><br>
                         <p style="font-size:15px; color:white">slow developer</p>
                     </div>
                 </div>
             </div>
 
-            <div id="html2"></div>
+            <div id="content">
+            </div>
 
             <div class="tag">
                 this is tag layout!!
             </div>
         </div>
     </body>
-
 </html>

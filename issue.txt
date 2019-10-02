@@ -1,0 +1,2 @@
+1. width값이 일정 이하로 떨어질 때 반응형 웹으로 구현
+2. content.html 에서 동적으로 post div 생성, post div 틀 생성
