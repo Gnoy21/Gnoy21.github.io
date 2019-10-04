@@ -1,39 +1,30 @@
 <html>
     <head>
         <title>Gnoy's Blog</title>
+        
         <link rel="stylesheet" href="css/home.css"/>
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript">
-            $(document).ready( function() {
-                $("#content").load("content.html");
-                $("#post_preview").load("post_preview.html");
-            });
-            function add_div(){
-                var div = document.createElement('div');
-                div.innerHTML = document.getElementById('post_preview').innerHTML;
-                document.getElementById('content').appendChild(div);
+            function postClick(){
+                location.href="post/post.html"
             }
         </script>
     </head>
 
-    <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
-        <div class="container">
-            <div class="sidebar_container">
-                <div class="sidebar">
-                    <div class="sidebar_profile">
-                        <img class="sidebar_profile_image" src="image/Teemo.jpg" width="128px" height="128px"><br><br>
-                        <strong style="font-size:30px; color:white">Gnoy</strong><br>
-                        <p style="font-size:15px; color:white">slow developer</p>
-                    </div>
-                </div>
+    <body>
+        <aside>
+            <div class="aside_profile">
+                <img src="image/Teemo.jpg" class="aside_profile_image">
+                <h1>Gnoy</h1>
+                <p>slow developer</p>
             </div>
+        </aside>
 
-            <div id="content">
-            </div>
-
-            <div class="tag">
-                this is tag layout!!
-            </div>
-        </div>
+        <section>
+            <div class="post_preview" onclick="postClick()"></div>
+            <div class="post_preview"></div>
+            <div class="post_preview"></div>
+        </section>
     </body>
 </html>
