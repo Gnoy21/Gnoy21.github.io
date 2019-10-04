@@ -1,13 +1,13 @@
 <html>
     <head>
         <title>Gnoy's Blog</title>
-        
+
         <link rel="stylesheet" href="css/home.css"/>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript">
-            function postClick(){
-                location.href="post/post.html"
+            function postClick(test){
+                location.href="post/"+test+".html"
             }
         </script>
     </head>
@@ -22,9 +22,9 @@
         </aside>
 
         <section>
-            <div class="post_preview" onclick="postClick()"></div>
-            <div class="post_preview"></div>
-            <div class="post_preview"></div>
+            <div id="post" class="post_preview" onclick="postClick(this.id)"></div>
+            <div id="post1" class="post_preview" onclick="postClick(this.id)"></div>
+            <div id="post2" class="post_preview" onclick="postClick(this.id)"></div>
         </section>
     </body>
 </html>
