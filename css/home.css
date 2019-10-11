@@ -40,10 +40,11 @@ aside{
 
 .aside_profile{
     position: relative;
-    width: 100%;
+    width: 305px;
     height: 300px;
+    margin: 10px;
     text-align: center;
-    border-bottom: 1px solid gray;
+    border: 5px green;
 }
 
 .aside_profile_image{
@@ -51,6 +52,14 @@ aside{
     height: 140px;
     border-radius: 50%;
     margin-top: 20px;
+}
+
+.aside_category{
+    position: relative;
+    width: 305px;
+    height: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
 section{
