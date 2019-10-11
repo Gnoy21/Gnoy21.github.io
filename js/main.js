@@ -1,6 +1,14 @@
-function postClick(test){
-    location.href="post/"+test+".html";
-    var fs = require('fs');
-    var files = fs.readdirSync('../post/');
-    alert(files);
+function postClick(url){
+    var ajaxOption = {
+        url : url,
+        async : true,
+        type : "POST",
+        dataType : "html",
+        cache : false
+    };
+
+    $.ajax(ajaxOption).done(function(data){
+        $('#post_list').children().remove();
+        $('#post_list').html(data);
+    });
 }
