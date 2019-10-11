@@ -1,15 +1,15 @@
 a:link{
-    color: #646464;
+    color: gray;
     text-decoration: none;
 }
 
 a:visited{
-    color: #646464;
+    color: gray;
     text-decoration: none;
 }
 
 a:hover{
-    color: #646464;
+    color: gray;
     text-decoration: none;
 }
 
@@ -19,7 +19,7 @@ body{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #e2e2e2;
+    background-color: #F2F2F2;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ aside{
     width: 325px;
     height: 100%;
     position: fixed;
-    background-color: black;
+    background-image: url("../image/milkyway.jpg");
     color: white;
     overflow: hidden;
     float: left;
@@ -54,7 +54,7 @@ aside{
 }
 
 section{
-    width: 975px;
+    width: 800px;
     margin-left: 325px;
     padding-left: 100px;
     padding-top: 50px;
@@ -63,19 +63,30 @@ section{
 
 .card{
     position: relative;
-    width: 725px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
+    background: #FAFAFA;
     margin-bottom: 50px;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
 }
 
 .card_image{
-    width: 725px;
-    height: 50%;
+    width: 700px;
+    height: 300px;
     border-radius: 5px;
 }
 
+.card_content_div{
+    width: 700px;
+    height: 200px;
+}
+
+.card_title{
+    margin-left: 7px;
+}
+
 .card_content{
-    width: 725px;
-    height: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
 }
