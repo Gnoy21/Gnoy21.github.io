@@ -109,11 +109,11 @@ section{
 }
 
 .card_title{
-    margin-left: 7px;
+    margin-left: 15px;
 }
 
 .card_content{
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: gray;
 }
