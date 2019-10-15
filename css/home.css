@@ -4,7 +4,7 @@ a:link{
 }
 
 a:visited{
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
@@ -66,8 +66,13 @@ section{
     width: 800px;
     margin-left: 325px;
     padding-left: 100px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.section_title{
+    margin-bottom: 30px;
+    color: #696868;
 }
 
 .card{
