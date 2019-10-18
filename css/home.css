@@ -110,10 +110,17 @@ section{
 
 .card_title{
     margin-left: 15px;
+    color: black;
 }
 
 .card_content{
     margin-left: 15px;
     margin-right: 15px;
     color: gray;
+}
+
+.post-title{
+    font-size: 35px;
+    font-style: 고딕;
+    color: #6E6E6E;
 }
