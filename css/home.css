@@ -91,10 +91,10 @@ section{
     position: relative;
     width: 700px;
     height: 500px;
-    background: #FAFAFA;
+    background: white;
     margin-bottom: 50px;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 1px 1px 1px 1px gray;
 }
 
 .card_image{
