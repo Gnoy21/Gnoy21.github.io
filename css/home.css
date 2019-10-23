@@ -97,6 +97,11 @@ section{
     box-shadow: 1px 1px 1px 1px gray;
 }
 
+.card_a{
+    width: 700px;
+    height: 300px;
+}
+
 .card_image{
     display: block;
     margin: auto;
