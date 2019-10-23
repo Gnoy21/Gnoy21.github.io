@@ -124,3 +124,18 @@ section{
     font-style: 고딕;
     color: #6E6E6E;
 }
+
+.post-content{
+    font-size: 15px;
+    font-style: 고딕;
+}
+
+.post-image{
+    display: block;
+    margin: 0px auto;
+}
+
+.post-image-discription{
+    text-align: center;
+    color: #6E6E6E;
+}
