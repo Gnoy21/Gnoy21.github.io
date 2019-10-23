@@ -99,7 +99,7 @@ section{
 
 .card_image{
     display: block;
-    margin: 0px auto;
+    margin: auto;
     border-radius: 5px;
 }
 
