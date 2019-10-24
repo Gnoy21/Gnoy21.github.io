@@ -131,8 +131,12 @@ section{
 }
 
 .post-content{
-    font-size: 15px;
-    font-style: 고딕;
+    font-size: 18px;
+}
+
+.post-content-bold{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .post-image{
