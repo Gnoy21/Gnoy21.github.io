@@ -6,6 +6,10 @@ a:hover{
     text-decoration: underline;
 }
 
+a:active{
+    text-decoration: underline;
+}
+
 body{
     padding: 0;
     margin: 0;
