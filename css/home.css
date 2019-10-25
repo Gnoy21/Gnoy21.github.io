@@ -2,14 +2,6 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
-a:active{
-    text-decoration: underline;
-}
-
 body{
     padding: 0;
     margin: 0;
@@ -65,11 +57,19 @@ aside{
     font-weight: bold;
 }
 
-.category-link{
+a.category-link{
     margin-left: 15px;
     font-family: 고딕;
     font-weight: 500;
     color: white;
+}
+
+a:hover.category-link{
+    text-decoration: underline;
+}
+
+a:active.category-link{
+    text-decoration: underline;
 }
 
 section{
