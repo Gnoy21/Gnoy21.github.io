@@ -1,3 +1,11 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -58,7 +66,6 @@ aside{
     font-family: 고딕;
     font-weight: 500;
     color: white;
-    text-decoration: none;
 }
 
 section{
