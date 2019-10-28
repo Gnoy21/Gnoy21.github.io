@@ -84,8 +84,9 @@ section.post-section{
     width: 800px;
     background-color: white;
     margin-left: 425px;
-    padding-top: 20px;
+    margin-top: 20px;
     padding-bottom: 50px;
+    border-radius: 5px;
 }
 
 .section_title{
