@@ -116,8 +116,10 @@ section{
     color: gray;
 }
 
-.card_title{
-    margin-left: 15px;
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
     color: black;
 }
 
