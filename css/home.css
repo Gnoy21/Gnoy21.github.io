@@ -80,6 +80,15 @@ section{
     padding-bottom: 50px;
 }
 
+section.post-section{
+    width: 800px;
+    color: white;
+    margin-left: 325px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .section_title{
     margin-bottom: 30px;
     color: #696868;
