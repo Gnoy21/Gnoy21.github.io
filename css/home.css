@@ -92,7 +92,7 @@ section{
     background: white;
     margin-bottom: 50px;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 0px 0px 0.75px 0px gray;
 }
 
 .card_a{
