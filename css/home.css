@@ -111,6 +111,12 @@ section{
     height: 200px;
 }
 
+.card-date-category{
+    margin-left: 15px;
+    color: gray;
+    font-size: 10px;
+}
+
 .card_title{
     margin-left: 15px;
     color: black;
