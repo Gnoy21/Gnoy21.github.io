@@ -43,22 +43,21 @@ aside{
     margin-top: 20px;
 }
 
-.aside_category{
+.aside-category{
     position: relative;
     width: 305px;
     height: 100%;
-    margin-left: 10px;
-    padding-left: 10px;
 }
 
-.category_title{
-    margin-left: 5px;
+.aside-menu{
+    margin-left: 25px;
     font-family: 고딕;
     font-weight: bold;
+    color: white;
 }
 
 a.category-link{
-    margin-left: 15px;
+    margin-left: 45px;
     font-family: 고딕;
     font-weight: 500;
     color: white;
@@ -119,12 +118,6 @@ section{
     font-weight: bold;
     margin-left: 10px;
     color: black;
-}
-
-.card_content{
-    margin-left: 15px;
-    margin-right: 15px;
-    color: gray;
 }
 
 .post-title{
