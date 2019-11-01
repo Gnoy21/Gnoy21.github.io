@@ -21,7 +21,7 @@ aside{
     width: 325px;
     height: 100%;
     position: fixed;
-    background-image: url("../aside_background.jpg");
+    background-image: url("/aside_background.jpg");
     color: white;
     overflow: hidden;
     float: left;
@@ -88,7 +88,6 @@ section{
 .card{
     position: relative;
     width: 700px;
-    height: 500px;
     background: white;
     margin-bottom: 50px;
     border-radius: 5px;
@@ -108,7 +107,6 @@ section{
 
 .card_content_div{
     width: 700px;
-    height: 200px;
 }
 
 .card-date-category{
