@@ -57,10 +57,12 @@ aside{
 }
 
 a.category-link{
-    margin-left: 45px;
+    margin-left: 30px;
+    padding-left: 15px;
     font-family: 고딕;
     font-weight: 500;
     color: white;
+    border-left: 3px solid white;
 }
 
 a:hover.category-link{
