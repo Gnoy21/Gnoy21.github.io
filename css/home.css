@@ -21,7 +21,8 @@ aside{
     width: 325px;
     height: 100%;
     position: fixed;
-    background-image: url("/aside_background.jpg");
+    background-image: url("/aside_background.png");
+    background-size: 325px 100%;
     color: white;
     overflow: hidden;
     float: left;
