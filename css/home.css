@@ -1,21 +1,6 @@
-a{
-    text-decoration: none;
-}
+a{ text-decoration: none; }
 
-body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: #F2F2F2;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    overflow-y: auto;
-}
+body{ padding: 0; margin: 0; background-color: #F2F2F2; }
 
 aside{
     width: 325px;
@@ -23,35 +8,32 @@ aside{
     position: fixed;
     background-image: url("/aside_background.png");
     background-size: 325px 100%;
-    color: white;
-    overflow: hidden;
-    float: left;
+}
+
+section{
+    width: 900px;
+    margin-left: 325px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .aside_profile{
-    position: relative;
-    width: 305px;
+    width: 100%;
     height: 300px;
-    margin: 10px;
     text-align: center;
-    border: 5px green;
+    color: white;
 }
 
 .aside_profile_image{
     width: 140px;
     height: 140px;
+    margin-top: 30px;
     border-radius: 50%;
-    margin-top: 20px;
-}
-
-.aside-category{
-    position: relative;
-    width: 305px;
-    height: 100%;
 }
 
 .aside-menu{
     margin-left: 25px;
+    font-size: 25px;
     font-family: 고딕;
     font-weight: bold;
     color: white;
@@ -74,15 +56,8 @@ a:active.category-link{
     text-decoration: underline;
 }
 
-section{
-    width: 800px;
-    margin-left: 325px;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
 .section_title{
+    margin-left: 100px;
     margin-bottom: 30px;
     color: #696868;
 }
@@ -91,6 +66,7 @@ section{
     position: relative;
     width: 700px;
     background: white;
+    margin: 0 auto;
     margin-bottom: 50px;
     border-radius: 5px;
     box-shadow: 0px 0px 0.75px 0px gray;
@@ -117,7 +93,7 @@ section{
 }
 
 .card-title{
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: bold;
     margin-left: 10px;
     color: black;
@@ -137,4 +113,22 @@ section{
 .post-image-discription{
     text-align: center;
     color: #6E6E6E;
+}
+
+/*반응형 웹 사이트를 만들기 위한 쿼리*/
+@media (max-width:1225px) {
+    aside{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        background-color: black;
+        z-index: 1;
+    }
+
+    section{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-left: 0px;
+    }
 }
