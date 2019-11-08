@@ -1,6 +1,11 @@
 a{ text-decoration: none; }
 
-body{ padding: 0; margin: 0; background-color: #F2F2F2; }
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: "NanumGothic";
+}
 
 aside{
     width: 325px;
@@ -17,21 +22,26 @@ section{
     padding-bottom: 50px;
 }
 
-.aside_profile{
+.aside-profile{
     width: 100%;
     height: 300px;
     text-align: center;
     color: white;
 }
 
-.aside_profile_image{
+.aside-profile-image{
     width: 140px;
     height: 140px;
+    position: relative;
     margin-top: 30px;
     border-radius: 50%;
 }
 
 .aside-menu{
+
+}
+
+.aside-menu-title{
     margin-left: 25px;
     font-size: 25px;
     font-family: 고딕;
@@ -41,10 +51,10 @@ section{
 
 a.category-link{
     margin-left: 30px;
-    padding-left: 15px;
     font-family: 고딕;
     font-weight: 500;
     color: white;
+    padding-left: 15px;
     border-left: 3px solid white;
 }
 
@@ -56,6 +66,10 @@ a:active.category-link{
     text-decoration: underline;
 }
 
+.section-post-div{
+    margin-left: 50px;
+}
+
 .section_title{
     margin-left: 100px;
     margin-bottom: 30px;
@@ -63,13 +77,12 @@ a:active.category-link{
 }
 
 .card{
-    position: relative;
     width: 700px;
-    background: white;
     margin: 0 auto;
     margin-bottom: 50px;
+    background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 0px 0.75px 0px gray;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
 
 .card_a{
@@ -83,17 +96,14 @@ a:active.category-link{
     border-radius: 5px;
 }
 
-.card_content_div{
-    width: 700px;
-}
-
 .card-date-category{
     margin-left: 15px;
+    font-size: 13px;
     color: gray;
 }
 
 .card-title{
-    font-size: 2.5vw;
+    font-size: 33px;
     font-weight: bold;
     margin-left: 10px;
     color: black;
@@ -101,7 +111,6 @@ a:active.category-link{
 
 .post-title{
     font-size: 35px;
-    font-style: 고딕;
     color: #6E6E6E;
 }
 
@@ -120,15 +129,26 @@ a:active.category-link{
     aside{
         width: 100%;
         height: 70px;
-        position: fixed;
-        background-color: black;
+        background-image: none;
         z-index: 1;
+    }
+
+    .aside-profile, .aside-menu{
+        display: none;
     }
 
     section{
         width: 80%;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 70px;
         padding-left: 0px;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .post-image{
+        width: 100%;
     }
 }
