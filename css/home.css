@@ -111,7 +111,15 @@ a:active.category-link{
 
 .post-title{
     font-size: 35px;
+    font-family: "NanumGothic";
+    font-weight: 900;
     color: #6E6E6E;
+}
+
+.post-subtitle{
+    font-size: 25px;
+    font-family: "NanumGothic";
+    font-weight: 700;
 }
 
 .post-image{
