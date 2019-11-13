@@ -38,20 +38,17 @@ section{
 }
 
 .aside-menu{
-
+    margin-left: 25px;
 }
 
 .aside-menu-title{
-    margin-left: 25px;
     font-size: 25px;
-    font-family: 고딕;
     font-weight: bold;
     color: white;
 }
 
 a.category-link{
-    margin-left: 30px;
-    font-family: 고딕;
+    margin-left: 5px;
     font-weight: 500;
     color: white;
     padding-left: 15px;
@@ -70,7 +67,7 @@ a:active.category-link{
     margin-left: 50px;
 }
 
-.section_title{
+.section-title{
     margin-left: 100px;
     margin-bottom: 30px;
     color: #696868;
@@ -83,21 +80,21 @@ a:active.category-link{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    line-height: 150%;
 }
 
-.card_a{
+.card-a{
     width: 700px;
     height: 300px;
 }
 
-.card_image{
-    display: block;
-    margin: auto;
+.card-image{
     border-radius: 5px;
 }
 
 .card-date-category{
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
     font-size: 13px;
     color: gray;
 }
@@ -105,21 +102,18 @@ a:active.category-link{
 .card-title{
     font-size: 33px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 5px;
     color: black;
 }
 
 .post-title{
     font-size: 35px;
-    font-family: "NanumGothic";
-    font-weight: 900;
-    color: #6E6E6E;
+    font-weight: bold;
 }
 
 .post-subtitle{
     font-size: 25px;
-    font-family: "NanumGothic";
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .post-image{
@@ -151,9 +145,17 @@ a:active.category-link{
         padding-top: 70px;
         padding-left: 0px;
     }
+    
+    .section-title{
+        margin-left: 5%;
+    }
 
     .card{
         width: 90%;
+    }
+
+    .card-image{
+        width: 100%;
     }
 
     .post-image{
